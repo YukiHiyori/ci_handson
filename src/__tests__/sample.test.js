@@ -18,6 +18,12 @@ test('', () => {
     let clazz = new Clazz(1, 2);
     expect(clazz.value).toBe(3);
 }); 
-test('helloとうつ', () => {
-    expect(hello("hiyori")).toBe("hello");
+test('hiyoriとうつと、helloと出力', () => {
+    expect(hello('hiyori')).toBe('hello');
+});
+test('beerとうつとboyと出力', () => {
+    expect(hello('beer')).toBe('boy');
+});
+test('intecとうつとyearと出力', () => {
+    expect(hello('intec')).toBe('year');
 });
