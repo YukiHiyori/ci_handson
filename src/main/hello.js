@@ -3,6 +3,8 @@ function hello(str) {
         return "hello";
     } else if (str.startsWith('b')) {
         return "boy";
+    } else if (str.starsWith('t')) {
+        return "tis";
     } else {
         return "yeah";
     }
