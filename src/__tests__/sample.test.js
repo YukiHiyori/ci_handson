@@ -17,6 +17,10 @@ test('-30 + -21 は -51', () => {
 test('', () => {
     let clazz = new Clazz(1, 2);
     expect(clazz.value).toBe(3);
+});
+test('', () => {
+    let clazz = new Clazz(3, 4);
+    expect(clazz.getValue()).toBe(7);
 }); 
 test('hiyoriとうつと、helloと出力', () => {
     expect(hello('hiyori')).toBe('hello');
