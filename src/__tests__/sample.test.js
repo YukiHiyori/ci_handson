@@ -24,6 +24,6 @@ test('hiyoriとうつと、helloと出力', () => {
 test('beerとうつとboyと出力', () => {
     expect(hello('beer')).toBe('boy');
 });
-test('intecとうつとyearと出力', () => {
-    expect(hello('intec')).toBe('year');
+test('intecとうつとyeahと出力', () => {
+    expect(hello('intec')).toBe('yeah');
 });
