@@ -19,5 +19,5 @@ test('', () => {
     expect(clazz.value).toBe(3);
 }); 
 test('helloとうつ', () => {
-    expect(hello('hiyori')).toBe('hello');
+    expect(hello("hiyori")).toBe("hello");
 });
